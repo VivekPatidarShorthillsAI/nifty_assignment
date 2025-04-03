@@ -1,0 +1,39 @@
+Top 5 Gainers:
+    symbol  daily_change
+ POWERGRID      4.603313
+ SUNPHARMA      3.405013
+     CIPLA      3.280890
+ULTRACEMCO      3.058853
+SHRIRAMFIN      2.299030
+
+Top 5 Losers:
+ symbol  daily_change
+    TCS     -3.968735
+HCLTECH     -3.872214
+  TECHM     -3.727908
+   INFY     -3.506112
+   ONGC     -2.812799
+
+Stocks 30% Below 52-Week High:
+    symbol  30_below_high
+INDUSINDBK      55.048054
+TATAMOTORS      44.397795
+    JIOFIN      41.565746
+HEROMOTOCO      40.044026
+BAJAJ-AUTO      38.079302
+
+Stocks 20% Above 52-Week Low:
+    symbol  20_above_low
+SHRIRAMFIN     49.133607
+     TRENT     47.436898
+BHARTIARTL     47.282563
+    ZOMATO     44.224197
+ EICHERMOT     38.249144
+
+Top 5 Stocks with Highest Returns in Last 30 Days:
+    symbol  perChange30d
+     TRENT         14.87
+    JIOFIN         14.36
+ POWERGRID         13.56
+ADANIPORTS         13.52
+  HDFCLIFE         12.65

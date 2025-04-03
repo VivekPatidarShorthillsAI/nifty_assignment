@@ -1,0 +1,38 @@
+Step 1: Fetching Data from NSE
+Prompt:
+
+"Write a Python script to fetch live stock data for Nifty 50 from NSE India. The script should use the NSE API and requests library to get the latest stock data in JSON format and convert it into a Pandas DataFrame. Ensure the script saves the data as a CSV file in the path assets/data/nifty50_data.csv."
+Step 2: Extracting Insights
+Prompt:
+
+*"Modify the script to calculate the following insights from the stock data:
+
+    Top 5 gainers and losers based on daily percentage change.
+
+    Stocks that are 30% below their 52-week high.
+
+    Stocks that are 20% above their 52-week low.
+
+    Stocks with the highest returns in the last 30 days.
+    Ensure that the script writes the extracted insights to assets/data/nifty50_analysis.txt."*
+
+Step 3: Creating a Visualization
+Prompt:
+
+"Extend the script to create a bar chart showing the top 5 gainers and top 5 losers based on daily percentage change. Use Matplotlib to generate the plot and save it as assets/plots/gainer_losers.png."
+Step 4: Handling Missing Columns and Errors
+Prompt:
+
+"Improve the script to handle missing columns gracefully. If any required columns (symbol, lastPrice, previousClose, yearHigh, yearLow, perChange30d) are missing from the fetched data, raise an exception with a clear error message. The script should not proceed further in this case."
+Step 5: Ensuring Proper Directory Structure
+Prompt:
+
+"Modify the script to ensure that required directories (assets/data/ and assets/plots/) are automatically created before saving files. Use os.makedirs() to create directories if they don’t exist."
+Step 6: Creating a Requirements File
+Prompt:
+
+"Generate a requirements.txt file listing all Python dependencies required to run this script. The file should include only the necessary packages."
+Step 7: Testing & Final Debugging
+Prompt:
+
+"Suggest a structured way to test the script and verify that it correctly fetches data, calculates insights, and generates the visualization. Include debugging steps in case the script fails."
